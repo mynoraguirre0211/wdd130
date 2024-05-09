@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/share?selection.family=Jersey+15|PT+Serif:ital,wght@0,400;0,700;1,400;1,700|Sedan+SC);
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sedan+SC&display=swap');
 
 body {
     font-family: var(--paragraph-font);
