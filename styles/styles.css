@@ -1,14 +1,53 @@
+* {
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: lavender; 
+}
+
+/* class selector */
+
+.box {
+    margin: 1rem;
+    border: 1px solid red;
+    padding: 1rem;
+    background-color: #413C58;
+    color: black;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 2553px;
+    left: 237px;
+}
+
+#picture {
+    float: right;
+    clear: both;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
 }
 nav a {
-    color: white;
+    color: black;
     display: block;
     padding: 20px;
 }
 h1 {
     color: steelblue;
+}
+
+h2 {
+    padding: 10px;
+    color: black;
+    background-color: #F3CA40;
 }
 main img {
     width: 150px;
@@ -19,6 +58,8 @@ main img {
 }
 p {
     padding: 10px;
+    color: black;
+    background-color: #2E86AB;
 }
 main {
     max-width: 850px;
@@ -28,7 +69,7 @@ aside {
     margin: 10px;
     border: 10px solid black;
     padding: 1rem;
-    background-color: aliceblue;
+    background-color: #2E86AB;
     color: chocolate;
     text-align: center;
 }
@@ -39,3 +80,4 @@ aside img {
 p {
     padding: 0;
 }
+
