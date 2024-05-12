@@ -5,32 +5,6 @@
     background-color: lavender; 
 }
 
-/* class selector */
-
-.box {
-    margin: 1rem;
-    border: 1px solid red;
-    padding: 1rem;
-    background-color: #413C58;
-    color: black;
-}
-
-aside {
-    width: 20em;
-    text-align: center;
-}
-
-aside h2 {
-    position: absolute;
-    top: 2790px;
-    left: 237px;
-}
-
-#picture {
-    float: right;
-    clear: both;
-}
-
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -81,3 +55,28 @@ p {
     padding: 0;
 }
 
+/* class selector */
+
+.box {
+    margin: 1rem;
+    border: 1px solid red;
+    padding: 1rem;
+    background-color: #413C58;
+    color: black;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 2790px;
+    left: 237px;
+}
+
+#picture {
+    float: right;
+    clear: both;
+}
