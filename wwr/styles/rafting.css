@@ -6,6 +6,7 @@
     padding: 25px;
     background-color: var(--accent2-color);
     box-sizing: border-box;
+    text-indent: 0%;
 }
 .sedan-sc-regular {
     font-family: "Sedan SC", serif;
@@ -28,6 +29,12 @@
     --nav-hover-background-color: #775144;
 }
 
+nav {
+    padding: 10px;
+    border: 10px 0 black;
+    margin: 5px;
+}
+
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -44,14 +51,16 @@ p {
     position: relative;
     width: 110%;
     height: 120%;
+    padding: 10px;
+    margin: 10px;
 }
 
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     position: absolute;
-    top: 140%;
-    left: 100%;
+    top: 640px;
+    right: 475px;
 }
 
 /*article {
@@ -67,16 +76,16 @@ article img {
     width: 200px;
     height: 300px;
     position: absolute;
-    top: 100%;
-    right: 30%;
+    top: 105%;
+    right: 25%;
 }
 
 article p {
     width: 500px;
     height: 180px;
     position: absolute;
-    top: 110%;
-    right: 45%;
+    top: 115%;
+    right: 40%;
     clear: left;
     text-align: center;
 }
@@ -85,4 +94,14 @@ article p {
     position: absolute;
     top: 125px;
     left: 100px;
+}
+
+section img {
+    display: block;
+    position: relative;
+}
+
+.history {
+    display: block;
+    position: relative;
 }
