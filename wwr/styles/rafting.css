@@ -6,7 +6,7 @@
     padding: 25px;
     background-color: var(--accent2-color);
     box-sizing: border-box;
-    text-indent: 0%;
+    text-indent: 1px;
 }
 .sedan-sc-regular {
     font-family: "Sedan SC", serif;
