@@ -50,8 +50,6 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 nav a {
@@ -70,7 +68,3 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-footer, header {
-    max-width: 840px;
-    margin: 0 auto;
-}

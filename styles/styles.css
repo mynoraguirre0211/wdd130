@@ -8,11 +8,17 @@
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 nav a {
-    color: black;
     display: block;
+    background-color: steelblue;
     padding: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #c0bdce;
 }
 h1 {
     color: steelblue;
@@ -80,4 +86,9 @@ aside h2 {
 #picture {
     float: right;
     clear: both;
+}
+
+footer, .grid, header {
+    max-width: 840px;
+    margin: 0 auto;
 }
