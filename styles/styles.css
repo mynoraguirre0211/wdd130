@@ -18,17 +18,21 @@ nav a {
     padding: 20px;
     font-size: 1rem;
     font-weight: 700;
-    color: #c0bdce;
+    color: #fefefe;
 }
 h1 {
+    padding: 10px;
+    margin: 10px;
     color: steelblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
     padding: 10px;
-    color: black;
-    background-color: #F3CA40;
+    color: steelblue;
+    background-color: lightgoldenrodyellow;
 }
+
 main img {
     width: 150px;
     height: auto;
@@ -36,50 +40,38 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 p {
     padding: 10px;
     color: black;
-    background-color: #2E86AB;
+    background-color: steelblue;
 }
+
 main {
-    max-width: 850px;
+    max-width: auto;
 }
-aside {
-    width: 30rem;
+
+/* aside {
+    width: 200px;
     margin: 10px;
     border: 10px solid black;
     padding: 1rem;
     background-color: #2E86AB;
     color: chocolate;
     text-align: center;
-}
-aside img {
-    width: 200px;
-    height: auto;
-}
-p {
-    padding: 0;
-}
-
-/* class selector */
-
-.box {
-    margin: 1rem;
-    border: 1px solid red;
-    padding: 1rem;
-    background-color: #413C58;
-    color: black;
-}
-
-aside {
     width: 20em;
     text-align: center;
     position: relative;
+} */
+
+aside img {
+    width: 250px;
+    height: auto;
 }
 
 aside h2 {
     position: absolute;
-    top: 2790px;
+    top: 270px;
     left: 237px;
 }
 
@@ -91,4 +83,35 @@ aside h2 {
 footer, .grid, header {
     max-width: 840px;
     margin: 0 auto;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+div aside {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: whitesmoke;
+    width: 200px;
+    margin: 10px;
+    border: 10px solid black;
+    padding: 1rem;
+    background-color: #2E86AB;
+    color: chocolate;
+    text-align: center;
+    width: 20em;
+    text-align: center;
+    position: relative;
+}
+
+div main {
+    display: grid;
+    grid-column: 2 / 4;
+    grid-row: 1;
+    background-color: whitesmoke;
 }
