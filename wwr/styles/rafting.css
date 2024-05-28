@@ -30,13 +30,39 @@
 }
 
 header {
+    margin: 1rem auto;
     display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid black;
+    max-width: 8000px;
 }
 
-nav {
+header img {
+    margin: 0 0.25rem 0 1rem;
+    width: 250px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
     padding: 10px;
     border: 10px 0 black;
     margin: 5px;
+}
+
+.navigation li {
+	flex: 2 2 100%;
+}
+
+nav {
+    text-align: right;
+}
+
+.navigation a:hover {
+    color: #061A40;
+    font-weight: 700;
+	text-decoration: underline;
 }
 
 h2 {
@@ -55,7 +81,7 @@ h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     position: absolute;
-    top: 640px;
+    top: 550px;
     right: 475px;
 }
 
@@ -63,7 +89,7 @@ article img {
     width: 200px;
     height: 300px;
     position: absolute;
-    top: 105%;
+    top: 95%;
     right: 25%;
 }
 
@@ -71,7 +97,7 @@ article p {
     width: 500px;
     height: 180px;
     position: absolute;
-    top: 115%;
+    top: 105%;
     right: 40%;
     clear: left;
     text-align: center;
@@ -80,10 +106,13 @@ article p {
 section img {
     display: block;
     position: relative;
+    width: 200px;
 }
 
+
 .history {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     position: relative;
 }
 
@@ -99,4 +128,9 @@ section img {
     height: 120%;
     padding: 10px;
     margin: 10px;
+}
+
+.adventure img{
+    display: flex;
+    flex-wrap: wrap;
 }
