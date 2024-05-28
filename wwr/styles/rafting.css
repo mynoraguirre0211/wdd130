@@ -64,26 +64,61 @@ nav {
 }
 
 .hero {
-    display: grid;
+    display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .hero h1 {
-    display: grid;
-    position: relative;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 65px;
+    color: aliceblue;
+    background-color: #061A40;
+    opacity: 0.8;
 }
 
-.hero article p{
+.hero article {
     position: absolute;
-    float: left;
+    width: 900px;
+    color: aliceblue;
+    background-color: #061A40;
+    opacity: 0.9;
 }
 
 .hero article img {
-    position: absolute;
-    width: 250px;
     float: right;
+    width: 250px;
+    height: auto;
 }
+
+h2 {
+    font-family: var(--heading-font);
+    font-size: xx-large;
+    text-decoration: underline;
+}
+.history {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.history article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.history article img {
+    width: 370px;
+    align-items: center;
+}
+
