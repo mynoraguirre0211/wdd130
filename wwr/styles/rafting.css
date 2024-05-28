@@ -29,6 +29,10 @@
     --nav-hover-background-color: #775144;
 }
 
+header {
+    display: grid;
+}
+
 nav {
     padding: 10px;
     border: 10px 0 black;
@@ -47,14 +51,6 @@ p {
     float: left;
 }
 
-.hero img{
-    position: relative;
-    width: 110%;
-    height: 120%;
-    padding: 10px;
-    margin: 10px;
-}
-
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -62,15 +58,6 @@ h1 {
     top: 640px;
     right: 475px;
 }
-
-/*article {
-    background-color: bisque;
-    width: 900px;
-    height: 200px;
-    position: absolute;
-    top: 180%;
-    right: 120%;
-}*/
 
 article img {
     width: 200px;
@@ -90,12 +77,6 @@ article p {
     text-align: center;
 }
 
-.employee {
-    position: absolute;
-    top: 125px;
-    left: 100px;
-}
-
 section img {
     display: block;
     position: relative;
@@ -104,4 +85,18 @@ section img {
 .history {
     display: block;
     position: relative;
+}
+
+.employee {
+    position: absolute;
+    top: 125px;
+    left: 100px;
+}
+
+.hero img{
+    position: relative;
+    width: 110%;
+    height: 120%;
+    padding: 10px;
+    margin: 10px;
 }
