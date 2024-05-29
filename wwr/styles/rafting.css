@@ -180,3 +180,8 @@ footer nav a {
     width: 100px;
     height: auto;
 }
+
+a {
+    font-size: x-large;
+    font-family: var(--heading-font);
+}
