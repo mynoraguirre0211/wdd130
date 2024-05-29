@@ -122,3 +122,53 @@ h2 {
     align-items: center;
 }
 
+.adventure {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    justify-self: center;
+    align-self: center;
+}
+
+.adventure h2 {
+    text-align: center;
+}
+
+.adventure article {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.adventure article figure {
+    border: 1 black solid;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 200px;
+    margin: auto;
+}
+
+.adventure article img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.adventure article figcaption {
+    background-color: whitesmoke;
+    color: black;
+    padding: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer p {
+    text-align: center;
+    justify-content: center;
+}
+
+footer nav {
+    float: right;
+}
