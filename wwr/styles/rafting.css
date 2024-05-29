@@ -5,6 +5,7 @@
     padding: 25px;
     box-sizing: border-box;
     text-indent: 1px;
+    text-align: center;
 }
 .sedan-sc-regular {
     font-family: "Sedan SC", serif;
@@ -47,6 +48,7 @@ header img {
     padding: 10px;
     border: 10px 0 black;
     margin: 5px;
+    justify-content: center;
 }
 
 .navigation li {
@@ -54,7 +56,7 @@ header img {
 }
 
 nav {
-    text-align: right;
+    text-align: center;
 }
 
 .navigation a:hover {
@@ -159,16 +161,22 @@ h2 {
 }
 
 footer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
     justify-content: center;
-    align-content: center;
-}
-
-footer p {
-    text-align: center;
-    justify-content: center;
+    align-items: center;
 }
 
 footer nav {
+    display: flex;
     float: right;
+    max-width: 300px;
+    gap: 10px;
+}
+
+footer nav a {
+    display: flex;
+    text-align: end;
+    width: 100px;
+    height: auto;
 }
