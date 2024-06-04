@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="quiz">
+        <meta name="Author" content="Mynor Alexander Aguirre Cante">
+        <title>Quiz | WDD 130</title>
+        <link href="styles/quiz.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <input type="checkbox" id="checkbox" name="checkbox" checked disabled>
+            <h1>Basic HTML and CSS quiz</h1>
+        </header>
+        <main>
+            <div class="firstq">
+                <label for="q1">1. What does the acrronym of HTML means?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="secondq">
+                <label for="q2">2. What is the main difference between class and id in CSS?</label>
+                <textarea id="q2" name="q2" rows="4"></textarea>
+            </div>
+            <div class="thirdq">
+                <label for="q3">3. Which one of this is the right way to comment in CSS</label>
+                <select id="q3" name="q3">
+                    <option value="predeterminado" selected disabled>Choose one...</option>
+                    <option value="comment1">-->! <--</option>
+                    <option value="comment2">*/ /*</option>
+                    <option value="comment3">(...)</option>
+                    <option value="comment4">"..."</option>
+                </select>
+            </div>
+            <div class="fourthq">
+                <label for="q4">4. What is the width in this declaration: </label>
+                <img src="images/question.jpg" alt="question">
+                <input type="number" id="q4" name="q4">
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="sbutton">
+        <button type="submit">Submit Quiz</button>
+        </div>
+    </footer>
+</html>

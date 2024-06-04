@@ -1,0 +1,66 @@
+* {
+    box-sizing: content-box;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 5px;
+    font-family: 'SegoeI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+main {
+    background-color: darkgrey;
+    max-width: fit-content;
+    margin: 0;
+    border: 5px solid black;
+    flex-direction: column;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+body {
+    box-sizing: border-box;
+    border-color: black;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    padding: 5px;
+    margin: 1px;
+}
+
+label {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: start;
+}
+
+.fourthq img {
+    width: 200px;
+}
+
+.sbutton {
+    display: flex;
+    flex-direction: column;
+}
+
+.sbutton button {
+    background-color: blue;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    width: 250px;
+    height: 35px;
+}

@@ -10,12 +10,12 @@ body {
     font-family: "Oswald", sans-serif;
     font-size: 1em;
     color: #333;
-    background-color: #454545;
+    background-color: #b7b0b0;
 }
 
 header {
     margin: 0 auto;
-    width: 700px;
+    width: 650px;
 }
 
 h1 {
@@ -26,12 +26,12 @@ h1 {
 }
 
 form {
-    width: 700px;
+    width: 650px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid coral;
     border-radius: 0.5rem;
-    background-color: #454545;
+    background-color: #b7b0b0;
     display: grid;
 }
 
@@ -71,7 +71,7 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
-    background-color: #454545;
+    background-color: #b7b0b0;
     color: orange;
     border: none;
     border-radius: 0.5rem;
@@ -85,7 +85,7 @@ button:hover {
 
 footer {
     margin:  1rem auto 0;
-    width: 700px;
+    width: 650px;
     text-align: center;
     font-size: 0.5em;
     color: darkblue;
