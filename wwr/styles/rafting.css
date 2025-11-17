@@ -134,10 +134,15 @@ section p {
     justify-content: center;
 }
 
-figure {
+.adventure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
+    margin: 10px;
+}
+
+figure {
+    align-self: center;
 }
 
 figure img {
@@ -146,6 +151,7 @@ figure img {
 
 figure figcaption {
     text-align: center;
+    align-self: flex-end;
 }
 
 footer {
