@@ -17,7 +17,7 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer, .adventure {
+header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
@@ -104,6 +104,8 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
     margin-top: 10px;
+    width: 100%;
+    max-width: 100%;
 }
 
 .adventure h2 {
@@ -112,10 +114,13 @@ footer {
 
 .adventure figure {
     align-self: center;
+    width: 100%;
 }
 
 .adventure img {
     grid-row-start: 1;
+    width: 100%;
+    height: auto;
 }
 
 .adventure figcaption {
