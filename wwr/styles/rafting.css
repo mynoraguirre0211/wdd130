@@ -17,7 +17,7 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
+header, main, footer, .adventure {
     width: 840px;
     margin: 0 auto;
 }
@@ -82,19 +82,6 @@ section p {
     justify-content: center;
 }
 
-figure {
-    align-self: center;
-}
-
-figure img {
-    grid-row-start: 1;
-}
-
-figure figcaption {
-    text-align: center;
-    align-self: flex-end;
-}
-
 footer {
     border-top: 1px solid rgb(172, 172, 172, 0.5);
     text-align: right;
@@ -121,6 +108,18 @@ footer {
 
 .adventure h2 {
     grid-column: 1/6;
+}
+
+.adventure figure {
+    align-self: center;
+}
+
+.adventure img {
+    grid-row-start: 1;
+}
+
+.adventure figcaption {
+    text-align: center;
 }
 
 .hero article {
