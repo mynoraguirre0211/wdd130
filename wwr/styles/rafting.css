@@ -36,9 +36,33 @@ nav, p, section, article {
     text-decoration: none;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(140, 175, 236);
+    align-items: center;
+}
+
 header img {
     width: 110px;
     height: 110px;
+    align-self: center;
+    justify-self: center;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation li {
+    border: 1px solid rgb(8, 10, 123);
+    padding: 5px 30px;
+    font-weight: bold;
 }
 
 .hero {
@@ -81,6 +105,18 @@ h1 {
     margin: 10px;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+section {
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
 section h2 {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
@@ -88,11 +124,37 @@ section h2 {
     padding: 10px;
 }
 
-footer {
-    border-top: 1px solid rgb(172, 172, 172, 0.5);
+section img {
+    max-width: 300px;
+    align-self: center;
 }
 
-section {
-    margin: 30px 0 0 0;
-    padding: 0;
+section p {
+    align-self: center;
+    justify-content: center;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+figure img {
+    grid-row-start: 1;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid rgb(172, 172, 172, 0.5);
+    text-align: right;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.socialmedia img {
+    max-width: 50px;
 }
