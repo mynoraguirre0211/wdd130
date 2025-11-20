@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div>
+                    <label for="fullname">Full name: </label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div>
+                    <label for="useremail">Email address: </label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div>
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="Chrome">Chrome</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Brave">Brave</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div>
+                    <label for="feedback">List the places you have lived:</label>
+                    <input type="textarea" id="feedback" name="feedback"
+                        placeholder="Guatemala, Quetzaltenango, Huehuetenango" rows="4">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+thead th {
+    background-color: black;
+    color: azure;
+}
+
+tfoot {
+    background-color: black;
+    color: azure;
+}
+
+td, th {
+    border: 1px solid rgb(121, 116, 116);
+}
