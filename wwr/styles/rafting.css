@@ -1,7 +1,8 @@
 :root {
-    --primary-color: rgb(155, 239, 239);
-    --accent1-color: rgb(1, 1, 92);
-    --accent2-color: rgb(221, 219, 214);
+    --primary-color: rgb(120, 218, 218);
+    --secondary-color: rgb(31, 68, 132);
+    --accent1-color: rgb(0, 0, 0);
+    --accent2-color: rgb(222, 222, 222);
     --heading-font: "Times New Roman", "Arial", "Serif";
     --body-font: "Arial", "Sands-serif", "Georgia";
 }
@@ -24,7 +25,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 nav, p, section, article {
@@ -37,7 +38,7 @@ header {
     grid-template-columns: 1fr 2fr;
     gap: 10px;
     margin-bottom: 10px;
-    background-color: rgb(140, 175, 236);
+    background-color:var(--secondary-color);
     align-items: center;
 }
 
@@ -56,7 +57,6 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent2-color);
-    color: rgb(27, 30, 66);
 }
 
 section {
@@ -161,9 +161,13 @@ footer {
 }
 
 .navigation li {
-    border: 1px solid rgb(8, 10, 123);
     padding: 5px 30px;
     font-weight: bold;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--accent2-color);
 }
 
 .hero {
