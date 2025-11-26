@@ -4,9 +4,62 @@
     box-sizing: border-box;
 }
 
+main {
+    max-width: 500px;
+    background-color: #762e0f;
+    border-radius: 0.5rem;
+
+}
+
+h1 {
+    font-size: x-large;
+    color: rgb(254, 254, 254);
+    margin-left: 30px;
+}
+
 form {
-    border: 1px solid black;
-    width: 650px;
-    align-content: center;
-    padding: 20px;
+    background-color: #0f5776;
+    color: white;
+}
+
+input, select, textarea, button {
+    width: 370px;
+    height: auto;
+    margin-top: 10px;
+    padding: 0.3rem;
+}
+
+label {
+    margin: 0.4rem;
+}
+
+code {
+    display: block;
+    background-color: black;
+    color: white;
+    width: 15rem;
+    padding: 10px;
+    text-align: center;
+    margin: 5px auto;
+
+}
+
+button {
+    background-color: #0f2476;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+
+/* Classes */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    padding: 0.5rem;
+}
+
+.qitem {
+    border: none;
 }
