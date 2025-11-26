@@ -234,7 +234,7 @@ form {
     display: flex;
     flex-direction: row-reverse;
     align-items: start;
-    gap: 10px;
+    gap: 0px;
     font-size: small;
     justify-content: flex-end;
 }
