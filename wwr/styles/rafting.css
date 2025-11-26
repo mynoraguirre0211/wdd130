@@ -1,8 +1,8 @@
 :root {
     --primary-color: rgb(120, 218, 218);
-    --secondary-color: rgb(31, 68, 132);
+    --secondary-color: rgb(51, 95, 172);
     --accent1-color: rgb(0, 0, 0);
-    --accent2-color: rgb(222, 222, 222);
+    --accent2-color: rgb(255, 255, 255);
     --heading-font: "Times New Roman", "Arial", "Serif";
     --body-font: "Arial", "Sands-serif", "Georgia";
 }
@@ -65,11 +65,10 @@ section {
 }
 
 h2 {
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     color: var(--accent2-color);
     text-align: center;
     padding: 10px;
-    margin-top: 10px;
 }
 
 section img {
@@ -185,6 +184,7 @@ footer {
 .address h2 {
     text-align: center;
     padding: 10px;
+    margin-bottom: 10px;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
