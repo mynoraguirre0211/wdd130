@@ -204,13 +204,12 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 
-.map {
-    padding: 15px;
-}
-
-.map iframe {
+iframe {
     max-width: 400px;
     height: 400px;
+    padding: 15px;
+    border: none;
+    margin-top: 15px;
 }
 
 form {
