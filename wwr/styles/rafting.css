@@ -182,7 +182,7 @@ footer {
 
 /* Contact us addition */
 
-h3 {
+.address h2 {
     text-align: center;
     padding: 10px;
     font-size: x-large;
@@ -273,6 +273,10 @@ label {
 .knowus h3 {
     grid-column: 1/4;
     align-self: center;
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .knowus img {
