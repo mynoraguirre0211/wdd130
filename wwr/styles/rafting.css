@@ -179,3 +179,102 @@ footer {
     width: 100%;
     height: auto;
 }
+
+/* Contact us addition */
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.address {
+    text-align: center;
+}
+
+.address p {
+    padding: 2px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.map {
+    padding: 15px;
+}
+
+.map iframe {
+    max-width: 400px;
+    height: 400px;
+}
+
+form {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.form-item {
+    padding: 0.3rem;
+    margin: 0.3rem;
+    display: grid;
+    align-items: end;
+    font-size: 1rem;
+}
+
+.column1 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    gap: 10px;
+    font-size: small;
+    justify-content: flex-end;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 325px;
+    padding: 5px;
+}
+
+label {
+    align-self: center;
+    display: inline-block;
+    padding: 3px;
+}
+
+.knowus {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0;
+    justify-items: center;
+    border: 1px solid black;
+    padding: 0 0.5rem 2rem;
+}
+
+.knowus h3 {
+    grid-column: 1/4;
+    align-self: center;
+}
+
+.knowus img {
+    max-width: 200px;
+    grid-row-start: 2;
+}
