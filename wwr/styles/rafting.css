@@ -282,3 +282,7 @@ label {
     max-width: 200px;
     grid-row-start: 2;
 }
+
+figure {
+    text-align: center;
+}
