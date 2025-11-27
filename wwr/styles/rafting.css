@@ -49,7 +49,7 @@ header img {
     justify-self: center;
 }
 
-h1 {
+.first-title {
     position: absolute;
     top: 10px;
     width: 100%;
