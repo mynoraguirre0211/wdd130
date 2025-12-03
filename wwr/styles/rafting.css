@@ -26,7 +26,13 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 nav, p, section, article {
@@ -69,7 +75,7 @@ h2 {
     background-color: var(--secondary-color);
     color: var(--accent2-color);
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 section img {
@@ -408,4 +414,41 @@ fieldset img {
     padding: 5px;
     justify-self: center;
     font-size: larger;
+}
+
+/* Trips CSS */
+
+.call {
+    position: relative;
+    display: block;
+}
+
+.call img {
+    width: 100%;
+}
+
+.call h2 {
+    position: absolute;
+    top: 15px;
+    background-color: rgba(6, 6, 164, 0.5);
+}
+
+.call a { 
+    position: absolute;
+    bottom: 30px;
+    right: 260px;
+    font-size: xx-large;
+    color: var(--accent2-color);
+}
+
+.some-trips {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.some-trips h2 {
+    grid-column: 1/4;
+    height: 50px;
+    align-content: center;
 }
