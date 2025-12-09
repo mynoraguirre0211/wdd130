@@ -498,7 +498,7 @@ fieldset img {
 
 .prices {
     border: 2px solid black;
-    border-collapse: collaps;
+    border-collapse: collapse;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
